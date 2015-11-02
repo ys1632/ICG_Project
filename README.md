@@ -27,12 +27,11 @@ a. Click on Project -> [project name] Properties.
 b. In the left window, click Configuration Properties to expand it. On the very top left, the Configuration drop-down, select All Configurations. 
 c. Below Configuration Properties, select Linker -> Input. 
 d. In the right window, click Additional Dependencies to activate this field. Type in 
-"glew32.lib" . Then click OK. 
-
-Remark on step d: Also type in "glut32.lib opengl32.lib glu32.lib" in case they cannot be automatically found during linking. <br>
-
+"glew32.lib" . Then click OK.
 6. To compile, click on Build -> Build [project name] (or Rebuild [project name]). 
 To run, click on Debug -> Start Without Debugging (or Ctrl+F5).
+
+Remark on step d: Also type in "glut32.lib opengl32.lib glu32.lib" in case they cannot be automatically found during linking.
 
 
 ##For Mac or Linux (not recommended)

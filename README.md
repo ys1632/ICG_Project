@@ -1,5 +1,4 @@
-# ICG_Project
-Interactive Computer Graphics Term Project (Spring 2014) <br>
+# Interactive Computer Graphics Term Project (Spring 2014) 
 C++ and OpenGL <br>
 This project contains four parts. We add some new futures to previous part getting the new part. The fourth part is the final version of the whole project that contains all features.
 ##Installation Instructions for OpenGL (Windows OS)
@@ -28,7 +27,7 @@ b. In the left window, click Configuration Properties to expand it. On the very 
 c. Below Configuration Properties, select Linker -> Input. 
 d. In the right window, click Additional Dependencies to activate this field. Type in 
 "glew32.lib" . Then click OK.
-6. To compile, click on Build -> Build [project name] (or Rebuild [project name]). 
+6. To compile, click on Build -> Build (project name) (or Rebuild [project name]). 
 To run, click on Debug -> Start Without Debugging (or Ctrl+F5).
 
 Remark on step d: Also type in "glut32.lib opengl32.lib glu32.lib" in case they cannot be automatically found during linking.
